@@ -1,0 +1,168 @@
+.top-bar {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-image: linear-gradient(rgba(255, 247, 0, 0.463), rgba(90, 84, 255, 0.468));
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    top: 0;
+    left: 0;
+}
+.head-line{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    letter-spacing: 0.1cm;
+    width: 70%;
+    display: contents;
+    display: flex;
+    justify-content: space-around;
+}
+html {
+    background-image: url(https://www.maccabipedia.co.il/images/b/b5/%D7%AA%D7%9E%D7%95%D7%A0%D7%94_%D7%A7%D7%91%D7%95%D7%A6%D7%AA%D7%99%D7%AA_2021-22.jpg);
+    animation: fadeIn 1s ease-in-out forwards;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }}
+
+.button {
+    width: 180px;
+    height: 40px;
+    background-image: linear-gradient(rgb(8, 0, 225), rgb(225, 247, 0));
+   
+    border: none;
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+    box-shadow: 1px 3px 0px rgb(0, 0, 0);
+    transition-duration: .3s;
+  }
+  
+  .cartIcon {
+    width: 14px;
+    height: fit-content;
+   
+  }
+  
+  .cartIcon path {
+    fill: rgb(0, 0, 0);
+  }
+  
+  .button:active {
+    transform: translate(2px ,0px);
+    box-shadow: 0px 1px 0px rgb(255, 255, 255);
+    padding-bottom: 1px;
+  }
+  .photo {
+    width: 50vw;
+    height: 70vh;
+    position: relative;
+    top: 17vh;
+    left: 24vw;
+    background-image: linear-gradient(rgba(255, 247, 0, 0.463), rgba(90, 84, 255, 0.468));
+    border-radius: 35px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+  .photo img {
+    width: 19vw;
+    height: 39vh;
+  }
+  .secret {
+    color: rgb(0, 0, 0);
+    height: 70vh;
+    width: 18vw;
+    position: absolute;
+    background-image: linear-gradient(rgba(255, 247, 0, 0.463), rgba(90, 84, 255, 0.468));
+    bottom: 12vh;
+    border-radius: 35px;
+    font-weight: 100;
+  }
+  .hover-me:hover {
+    width: 21vw;
+    height: 43vh;
+    transition-duration: 0.8s;
+  }
+  .into {
+    color: rgb(0, 0, 0);
+    width:100% ;
+    font-size: 25px;
+    font-style: oblique;
+    font-weight: 100;
+    
+  }
+  button {
+    border: 2px solid #000000;
+    background-image: linear-gradient(rgb(8, 0, 225), rgb(225, 247, 0));
+    border-radius: 0.9em;
+    padding: 0.8em 1.2em 0.8em 1em;
+    transition: all ease-in-out 0.2s;
+    font-size: 16px;
+   }
+   
+   button span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-weight: 600;
+   }
+   
+   button:hover {
+    background-color: #0071e2;
+   }
+   .right {
+    width: 18vw;
+    height: 70vh;
+    right: 1vw;
+    position: absolute;
+    bottom: 12vh;
+    border-radius: 35px;
+    background-image: linear-gradient(rgba(255, 247, 0, 0.463), rgba(90, 84, 255, 0.468));
+    display: flex;
+    flex-direction: column;
+    place-content: center space-around;
+    justify-content: space-around;
+    align-items: center;
+}
+   
+   .right img {
+    width: 20vw;
+    height: 50vh;}
+    .like
+    {
+        color: rgb(0, 0, 0);
+        width:100% ;
+        font-size: 30px;
+        font-style: oblique;
+        padding-left: 15px;
+      }
+      .right img {
+        width: 10vw;
+        height: 25vh;
+    }
+    .random:hover {
+        width: 12vw;
+        height:29vh;
+        transition-duration: 0.8s;
+      }
+      .lol:hover {
+        width: 15vw;
+        height: 10vh;
+        transition-duration: 0.8s;
+      }
